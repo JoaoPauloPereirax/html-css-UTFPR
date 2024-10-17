@@ -1,0 +1,34 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+
+body{
+       background-color: #00f;
+}
+
+#um{
+       background-color: rgb(43, 167, 171);
+}
+
+#dois{
+       background-color: rgb(124, 7, 113);
+}
+
+.sapo{
+       background-color: #f07c00;
+       height: 100px;
+}
+
+.homem{
+       width: 100px;
+}
+
+.mulher{
+       width: 80px;
+}
+/*Se eu usar uma , entre eles, ele seleciona todos os ids em lista */
+#dois #tres, #quatro {
+       background-color: #f00;
+}
