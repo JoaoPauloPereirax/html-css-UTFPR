@@ -1,0 +1,39 @@
+:root{
+    --height: 100px;
+    --width: 120px;
+}
+
+#um{
+    background-color: #f00;
+    height: var(--height);
+    width: var(--width);
+    padding: 5px;
+    margin: 10px;
+    border: 5px dashed black;
+    border-radius: 50%;
+    visibility: hidden;/*Propriedade para esconder o elemento*/
+    display: none; /*Deixa o elemento com inexistente*/
+}
+
+#dois{
+    background-color:#00f;
+    height: var(--height);
+    width: var(--width);
+    padding: 2px;
+    margin: 20px;
+    border: 7px solid black;
+}
+
+#tres{
+    background-color: #f00;
+    height: var(--height);
+    width: var(--width);
+    padding: 5px;
+    margin: 10px;
+    border: 5px dashed black;
+
+}
+
+.divs{
+    display: inline-block;
+}
