@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    width: 200px;
+    background-color: aqua;
+}
+
+#container{
+    display: flex;
+    /*
+    or 
+    display: inline-flex;
+    */
+    flex-direction: row-reverse;/*defalt*/
+    /*
+    row
+    row-reverse
+    column
+    column-reverse
+    
+    */
+    flex-wrap: nowrap;
+
+    flex-flow: row wrap;/*flex-direction e flex-wrap ao mesmo tempo*/
+
+    justify-content: space-between;
+
+    align-items: baseline;
+}
